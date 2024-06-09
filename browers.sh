@@ -1,4 +1,5 @@
 #!/bin/bash
+#This script works as a shortcut to search in Firefox
 flag=$1
 
 if [ $flag == "-l" ]
