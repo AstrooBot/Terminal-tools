@@ -1,6 +1,4 @@
-"""This script works as a simple calculator by operand two integer operands ex: ./calc.sh 1 + 1 
-It's important that separates terms by a blanket space
-"""
+
 for i in $@
 do
     terminos+=($i)
