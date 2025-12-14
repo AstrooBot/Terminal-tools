@@ -70,8 +70,8 @@ if [[ "$flag" == "init" ]]; then
 
 read -p "Enter your git repository link (https or ssh): " repo
 
-read -p "Enter your email to link repo" user_email
-read -p "Enter your email to link repo" user_name
+read -p "Enter your email to link repo: " user_email
+read -p "Enter your name to link repo " user_name
 
 path=$PWD
 read -p "Is it vault to connect at $path ? [y/n] " des
